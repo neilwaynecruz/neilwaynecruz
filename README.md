@@ -1,7 +1,7 @@
 # 👋 Hello, I'm Neil Wayne Cruz!
 
 ## 🚀 About Me
-I'm an Information Technology student passionate about coding, problem-solving, and learning new technologies. I love working on projects that challenge me and push my skills further.
+I'm an Information Technology student passionate about coding, problem-solving, and learning new technologies. I love working on projects that challenge me and push my skills further. I'm currently 2nd year at Polytechnic University of the Philippines - SAN JUAN BRANCH
 
 - 🔭 Currently working on: for my Portfolio
 - 🌱 Currently learning: OOP and DSA java, intermediate programming in c++, and machine learning for python
