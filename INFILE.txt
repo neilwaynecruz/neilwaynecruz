@@ -5,3 +5,5 @@ E12345     CRUZ                          ASSISTANT      05000000
 H12345     CHARLIE                       PROFESSOR      04000000
 Z23457     ERTYUW                        ADSFGGHJS      23456789
 Z12345     CHARLES                       ASSOCIATE      03500000
+H34567     CRUZ WAYNE                    hjkl;afgh      34567890
+A12345     sdfghjytrew                   pokjhl;'f      09876541
