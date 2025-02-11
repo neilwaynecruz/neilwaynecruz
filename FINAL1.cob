@@ -1,0 +1,162 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. FACULTY-LISTING.
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+           SELECT FACULTY-IN ASSIGN TO "INFILE.TXT".
+           SELECT FACULTY-OUT ASSIGN TO "FACULTY.TXT".
+
+       DATA DIVISION.
+       FILE SECTION.
+       FD FACULTY-IN
+           LABEL RECORD IS STANDARD
+           RECORD CONTAINS 64 CHARACTERS
+           DATA RECORD IS IN-RECORD.
+       01 IN-RECORD.
+           05 DEPT-CODE       PIC A.
+           05 FAC-NUM         PIC X(10).
+           05 FAC-NAME        PIC X(30).
+           05 RANK            PIC X(15).
+           05 SALARY          PIC 9(6)V99.
+
+       FD FACULTY-OUT.
+       01 OUTPUT-FACULTY.
+           05 FILLER          PIC X(80).
+
+       WORKING-STORAGE SECTION.
+       01 HEADER1.
+           05 FILLER          PIC X(30) VALUE SPACES.
+           05 FILLER          PIC X(20) VALUE 'HOLY ANGELS ACADEMY'.
+
+       01 HEADER2.
+           05 FILLER          PIC X(29) VALUE SPACES.
+           05 FILLER          PIC X(23) VALUE 'ANGELES CITY, PAMPANGA'.
+
+       01 HEADER3.
+           05 FILLER          PIC X(32) VALUE SPACES.
+           05 FILLER          PIC X(23) VALUE 'FACULTY LISTINGS'.
+
+       01 HEADER4.
+           05 FILLER          PIC X(2) VALUE SPACES.
+           05 FILLER          PIC X(10) VALUE 'DEPARTMENT'.
+           05 FILLER          PIC X(5) VALUE SPACES.
+           05 FILLER          PIC X(7) VALUE 'FACULTY'.
+           05 FILLER          PIC X(8) VALUE SPACES.
+           05 FILLER          PIC X(7) VALUE 'FACULTY'.
+           05 FILLER          PIC X(10) VALUE SPACES.
+           05 FILLER          PIC X(4) VALUE 'RANK'.
+           05 FILLER          PIC X(11) VALUE SPACES.
+           05 FILLER          PIC X(6) VALUE 'SALARY'.
+
+       01 HEADER5.
+           05 FILLER          PIC X(17) VALUE SPACES.
+           05 FILLER          PIC X(6) VALUE 'NUMBER'.
+           05 FILLER          PIC X(9) VALUE SPACES.
+           05 FILLER          PIC X(4) VALUE 'NAME'.
+
+       01 TOT-HEADER1.
+           05 FILLER          PIC X(2) VALUE SPACES.
+           05 FILLER   PIC X(29) VALUE 'TOTAL NO. OF IT FACULTY: '.
+           05 TOT-IT          PIC 9(3) VALUE ZEROES.
+
+       01 TOT-HEADER2.
+           05 FILLER    PIC X(2) VALUE SPACES.
+           05 FILLER    PIC X(29) VALUE 'TOTAL NO. OF HM FACULTY: '.
+           05 TOT-HM    PIC 9(3) VALUE ZEROES.
+
+       01 TOT-HEADER3.
+           05 FILLER          PIC X(2) VALUE SPACES.
+           05 FILLER PIC X(29) VALUE 'TOTAL NO. OF EDUC FACULTY: '.
+           05 TOT-EDUC        PIC 9(3) VALUE ZEROES.
+
+       01 TOT-HEADER4.
+           05 FILLER          PIC X(2) VALUE SPACES.
+          05 FILLER PIC X(33) VALUE 'TOTAL NO. OF ACCOUNTING FACULTY: '.
+           05 TOT-ACCOUNTING  PIC 9(3) VALUE ZEROES.
+
+       01 TOT-HEADER5.
+           05 FILLER          PIC X(2) VALUE SPACES.
+           05 FILLER          PIC X(29) VALUE 'TOTAL NO. FACULTY: '.
+           05 TOT-FAC          PIC 9(3) VALUE ZEROES.
+
+       01 TOT-BLANK-HEADER.
+           05 FILLER          PIC X(80) VALUE SPACES.
+
+       01 DETAIL-LINE.
+           05 FILLER          PIC X(2) VALUE SPACES.
+           05 OUT-DEPT        PIC A.
+           05 FILLER          PIC X(14) VALUE SPACES.
+           05 OUT-FAC-NUM     PIC X(10).
+           05 FILLER          PIC X(6) VALUE SPACES.
+           05 OUT-FAC-NAME    PIC X(15).
+           05 OUT-RANK        PIC X(15).
+           05 OUT-SALARY      PIC ZZZ,Z99.99.
+
+       01 OTHER-FIELDS.
+           05 EOF1            PIC X(3) VALUE 'NO'.
+
+       SCREEN SECTION.
+       01 SCRN.
+           05 BLANK SCREEN.
+
+       PROCEDURE DIVISION.
+       MAIN-RTN.
+           OPEN INPUT FACULTY-IN
+                 OUTPUT FACULTY-OUT.
+
+           PERFORM WRITE-HEADER.
+           PERFORM READ-AND-WRITE-RECORDS UNTIL EOF1 = 'YES'.
+
+           PERFORM WRITE-TOT-HEADER.
+
+           CLOSE FACULTY-IN
+           FACULTY-OUT.
+
+           STOP RUN.
+
+       WRITE-HEADER.
+           WRITE OUTPUT-FACULTY FROM HEADER1.
+           WRITE OUTPUT-FACULTY FROM HEADER2.
+           WRITE OUTPUT-FACULTY FROM TOT-BLANK-HEADER.
+           WRITE OUTPUT-FACULTY FROM TOT-BLANK-HEADER.
+           WRITE OUTPUT-FACULTY FROM HEADER3.
+           WRITE OUTPUT-FACULTY FROM TOT-BLANK-HEADER.
+           WRITE OUTPUT-FACULTY FROM HEADER4.
+           WRITE OUTPUT-FACULTY FROM HEADER5.
+
+       READ-AND-WRITE-RECORDS.
+               READ FACULTY-IN AT END MOVE 'YES' TO EOF1.
+
+
+           IF EOF1 NOT = 'YES'
+               IF DEPT-CODE IS = 'I' OR DEPT-CODE IS = 'H' OR
+                   DEPT-CODE IS = 'E' OR DEPT-CODE IS = 'A'
+               PERFORM PROCESS-RECORD
+           END-IF.
+
+       PROCESS-RECORD.
+           MOVE DEPT-CODE TO OUT-DEPT.
+           MOVE FAC-NUM TO OUT-FAC-NUM.
+           MOVE FAC-NAME TO OUT-FAC-NAME.
+           MOVE RANK TO OUT-RANK.
+           MOVE SALARY TO OUT-SALARY.
+           WRITE OUTPUT-FACULTY FROM DETAIL-LINE.
+
+           IF DEPT-CODE = 'I'
+                ADD 1 TO TOT-IT
+           ELSE IF DEPT-CODE = 'H'
+               ADD 1 TO TOT-HM
+           ELSE IF DEPT-CODE = 'E'
+               ADD 1 TO TOT-EDUC
+           ELSE IF DEPT-CODE = 'A'
+               ADD 1 TO TOT-ACCOUNTING
+           END-IF.
+           ADD 1 TO TOT-FAC.
+
+       WRITE-TOT-HEADER.
+           WRITE OUTPUT-FACULTY FROM TOT-HEADER1 AFTER 3 LINES.
+           WRITE OUTPUT-FACULTY FROM TOT-HEADER2.
+           WRITE OUTPUT-FACULTY FROM TOT-HEADER3.
+           WRITE OUTPUT-FACULTY FROM TOT-HEADER4.
+           WRITE OUTPUT-FACULTY FROM TOT-HEADER5.
