@@ -1,0 +1,205 @@
+Basic Command Line and Git Commands
+
+1. cd (Change Directory)
+- Changes the current working directory.
+
+- EXAMPLE: cd [folder_name]
+
+2. ls (List)
+- Shows all the files and directories inside the current folder.
+
+- EXAMPLE: ls
+
+3. mkdir (Make Directory)
+- Creates a new directory.
+
+- EXAMPLE: mkdir new_folder_name
+
+4. git init
+- Initializes a new Git repository in the current directory.
+
+- EXAMPLE: git init
+
+5. ls -a
+- Lists all files, including hidden files (those starting with a dot .).
+
+- EXAMPLE: ls -a
+
+6. touch
+- Creates a new empty file.
+
+- EXAMPLE: touch filename.extension
+
+7. git add
+- Adds files to the staging area.
+
+- EXAMPLE: git add filename.extension
+- To add all files: git add --all
+
+8. git status
+- Shows the status of the working directory and staging area.
+
+- EXAMPLE: git status
+
+9. git config --global user.email
+- Sets the global email address for Git commits.
+
+- EXAMPLE: git config --global user.email "your.email@gmail.com"
+
+10. git commit -m "Your commit message"
+- Commits the staged changes with a message.
+- Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point".
+- It is a point in the project you can go back to if you find a bug, or want to make a change.
+
+- EXAMPLE: git commit -m "Your commit message"
+
+11. vi (Visual Editor)
+- Opens a file in the Vi text editor for editing.
+
+- EXAMPLE: vi filename. Extension
+
+12. cat (Concatenate)
+- Displays the contents of a file.
+
+- EXAMPLE: cat filename. Extension
+
+13. git restore --staged
+- Unstages a file (removes it from the staging area).
+
+- EXAMPLE: git restore --staged filename. Extension
+
+14. rm -rf (Remove)
+- Deletes a file or directory forcefully.
+
+- EXAMPLE: rm -rf filename. Extension
+- Warning: This command is irreversible, so use it with caution.
+
+15. git reset [--soft | --mixed | --hard] <commit-hash>
+- powerful command in Git that is used to undo changes in your repository.
+- git reset --soft : Moves the HEAD pointer to a specified commit, but does not change the staging area or working directory.
+- git reset --mixed : Moves the HEAD pointer and resets the staging area to match the specified commit, but does not change the working directory.
+- git reset --hard : Moves the HEAD pointer, resets the staging area, and updates the working directory to match the specified commit.
+
+- EXAMPLE: git reset --mixed a1b2c3d4e5f6g7h8i9j0 or git reset --soft a1b2c3d4e5f6g7h8i9j0 or git reset --hard a1b2c3d4e5f6g7h8i9j0
+
+16. git log
+- Shows the history of commits in your repository, starting from the most recent commit and going backward in time.
+- It helps you see what changes were made, who made them, and when. You can also find commit hashes (unique IDs) to use with commands like git reset.
+- Shows the commit history of your branch.
+
+- EXAMPLE: git log
+
+17. git reflog
+- Shows a log of all actions you've taken in your repository, including commits, checkouts, resets, and more. It’s like a "history of changes to your history."
+- If you accidentally lose commits (e.g., with git reset), you can use git reflog to find the commit hash and recover them.
+- Shows a history of all actions (including changes to the commit history).
+
+- EXAMPLE: git reflog
+
+18. git [command] -help
+- Shows all options for a specific Git command.
+
+- EXAMPLE: git commit -help
+
+19. git help --all
+- Lists all possible Git commands you can use.
+- If you find yourself stuck in the list view, SHIFT + G to jump the end of the list, then q to exit the view.
+
+- EXAMPLE: git help --all
+
+20. git branch
+- Lets you create, list, rename, or delete branches in your Git repository.
+- Branches allow you to work on different features or fixes without affecting the main code.
+
+- EXAMPLE: git branch -> Lists all branches.
+- ANOHTER EXAMPLE: git branch [name of branch you want to call ->  Creates a new branch called "the name you create".
+
+
+21. git checkout
+- Lets you switch to a different branch or restore files from a specific commit or branch.
+- It allows you to move between branches or recover files from earlier states.
+
+- EXAMPLE: git checkout branch-name -> Switches to the specified branch.
+- ANOTHER EXAMPLE: git checkout -b new-branch -> Creates and switches to a new branch.
+
+22. git merge
+- Combines changes from one branch into another.
+- If you work on a feature in a separate branch, you can use git merge to add those changes back into the main branch.
+
+- EXAMPLE: git checkout
+           git merge emergency-fix
+
+
+23. git branch -d
+- Deletes a branch that you no longer need.
+- It helps keep your repository clean by removing branches that have already been merged.
+
+- EXAMPLE: git branch -d emergency-fix
+
+
+24. git remote add origin [URL]
+- Connects your local Git repository to a remote repository (like GitHub or GitLab) using the provided URL.
+- It allows you to push your local code to a remote server or pull changes from it.
+
+- EXAMPLE: git remote add origin https://github.com/neilwaynecruz/neilwaynecruz.git
+
+	  origin is a shorthand name for the remote repository.
+	  The URL is the link to your remote repository.
+
+- git push --set-upstream origin master
+
+
+25. git fetch
+- Downloads the latest changes from the remote repository but doesn’t apply them to your local branch.
+- It lets you see what’s changed on the remote without affecting your local code.
+
+- EXAMPLE: git fetch origin
+
+26. git merge
+- Combines changes from one branch (e.g., a remote branch) into your current branch.
+- It integrates changes from another branch into your work.
+
+- EXAMPLE: git merge origin/main
+
+
+27.git pull
+- Fetches changes from the remote repository and merges them into your current branch in one step.
+- It’s a quick way to update your local branch with the latest changes from the remote.
+
+- EXAMPLE: git pull origin
+
+
+
+28. git log origin/master
+
+29. git diff origin/master
+
+30
+
+31
+
+32
+
+33
+
+34
+
+
+
+Additional Notes:
+
+- git restore --staged is used to unstage files, while git restore (without --staged) is used to discard changes in the working directory.
+
+- vi is a text editor. To save and exit, press Esc, then type :wq and hit Enter.
+
+- rm -rf is a powerful command that can delete files and directories recursively and forcefully. Be careful when using it.
+
+- Be cautious when using git reset --hard, as it can permanently delete uncommitted changes.
+
+- git reset is different from git revert. While git reset moves the HEAD pointer and can discard commits, git revert creates a new commit that undoes the changes of a previous commit.
+
+- fetch: Downloads changes but doesn’t apply them.
+
+- merge: Combines changes into your branch.
+
+- pull: Does both (fetch + merge) in one step.
