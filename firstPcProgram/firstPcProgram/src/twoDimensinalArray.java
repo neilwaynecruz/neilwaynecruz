@@ -9,42 +9,42 @@ public class twoDimensinalArray {
         // or      datatype arrayName[row][column] = new datatype[rowSize][columnSize];
         // or      datatype[row] arrayName[column] = new datatype[rowSize][columnSize];
 
-        //actual example
+                                                        //actual example
 
-        String[][] groceries = {{"Apple", "Banana", "Orange"}, 
-                                {"Milk", "Cheese", "Butter"}, 
-                                {"Chicken", "Beef", "Fish", "Pork"}};
+        // 2d array of Telephone Pad
 
-        // accessing elements of 2D array
-     /*  
-       System.out.println(
-              groceries[0][0] + " " + groceries[0][1] + " " + groceries[0][2] + "\n" +
-              groceries[1][0] + " " + groceries[1][1] + " " + groceries[1][2] + "\n" +
-              groceries[2][0] + " " + groceries[2][1] + " " + groceries[2][2] + " " + groceries[2][3] + "\n"
-       );
-*/  
-       //or using for loop, can use traditional for loop or for-each loop
+        char [][] telephonePad = {
+            {'1', '2', '3'},
+            {'4', '5', '6'},
+            {'7', '8', '9'},
+            {'*', '0', '#'}
+        };
 
-         //traditional for loop
-         System.out.println("TRADITIONAL FOR LOOP\n");
-            for(int i = 0; i < groceries.length; i++){
-                for(int j = 0; j < groceries[i].length; j++){
-                    System.out.print(groceries[i][j] + " ");
-                }
-                System.out.println();
-            }
+        System.out.println("  Telephone Pad  ");
+        System.out.println("-----------------");
 
-            System.out.println();
-            System.out.println("FOR-EACH LOOP\n");
-
-            // for-each loop
-            for(String[] grocery : groceries){
-                for(String item : grocery){
-                    System.out.print(item + " ");
-                }
-                System.out.println();
+        // for-each loop
+/* 
+         for (char[] row : telephonePad){
+            for (char column : row){
+                System.out.printf("%4c ", column);
             }
             System.out.println();
+        }
+        System.out.println();
+*/
+
+
+        // traditional for loop
+
+        for(int i = 0; i < telephonePad.length; i++){
+            for (int j = 0; j < telephonePad[i].length; j++){
+                System.out.printf("%4c ", telephonePad[i][j]);
+            }
+            System.out.println();
+        }
+        System.out.println();
+
     }
     
 }
