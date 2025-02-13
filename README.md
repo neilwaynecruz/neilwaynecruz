@@ -5,7 +5,7 @@ I'm an Information Technology student passionate about coding, problem-solving, 
 
 - 🔭 Currently working on: for my Portfolio
 - 🌱 Currently learning: OOP and DSA java, intermediate programming in c++, and machine learning for python
-- 💡 Interests: Web Development, Cybersecurity, AI, and Open Source
-- 💬 Ask me about: Anything tech-related or my projects
+- 💡 Interests: Web Development, Cybersecurity, AI, Full Stack Developer (but mainly in backend), and Open Source
+- 💬 Ask me about: Anything tech-related or My projects
 - 📫 How to reach me: Gmail: neilwayne0514@gmail.com, Facebook: https://www.facebook.com/neilwayne.cruz/, yahoo: neilwaynecruz@yahoo.com
-- ⚡ Fun fact: I love learning anything related to tech, and I play basketball and video games
+- ⚡ Fun fact: I love learning anything related to technology and I love history!!
