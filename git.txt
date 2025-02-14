@@ -171,10 +171,46 @@ Basic Command Line and Git Commands
 
 
 28. git log origin/master
+- This shows you the history of commits on the master branch in the remote repository (origin).
+- It’s like looking at a "logbook" of all the changes (commits) that have been made on the master branch on the server (e.g., GitHub).
+- When you want to see what changes have been made on the remote master branch without switching to it.
 
 29. git diff origin/master
+-  This compares your current branch (the one you’re working on) with the master branch on the remote repository (origin).
+- It’s like checking the "differences" between your work and the latest version of the master branch on the server.
+- When you want to see what changes you’ve made locally compared to the remote master branch.
 
-30
+
+30 git stash
+-It temporarily saves your uncommitted changes (both staged and unstaged) and reverts your working directory to the last commit.
+- It’s like putting your work in a "drawer" for safekeeping so you can switch tasks or branches without losing your progress.
+
+how to use:
+1. Stash Your Changes: git stash (This saves your changes and reverts your working directory to the last commit.)
+
+2 List Your Stashes: git stash list (To see all the stashes you’ve saved, run:)
+
+3. Apply a Stash: git stash apply 	(To bring back your stashed changes) or
+		  git stash apply stash@{1} 	(If you have multiple stashes, you can specify which one to apply)
+
+4. delete stash: git stash drop stash@{1} (Once you’re done with a stash, you can delete it:) or
+		 git stash pop  (Or, to apply and delete in one step)
+
+When to Use git stash
+
+1. Switching Branches: 
+- If you’re working on a branch and need to switch to another branch but don’t want to commit your half-finished work, you can stash it.
+- EXAMPLE : git stash
+	    git checkout another-branch
+
+2. Pulling Updates:
+- If you need to pull the latest changes from the remote repository but have uncommitted changes, you can stash your changes first.
+- EXAMPLE: git stash 
+	   git pull origin master
+
+3. Temporary Cleanup:
+- If you want to clean up your working directory temporarily to test something or debug, you can stash your changes.
+
 
 31
 
