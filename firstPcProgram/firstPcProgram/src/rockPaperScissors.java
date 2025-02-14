@@ -8,8 +8,7 @@ public class rockPaperScissors {
         Random random = new Random(); // Creating a random object to generate random numbers
         String userMove = ""; // Variable to store the user's move
         int userScore = 0; // Variable to store the user's score
-        int userChoice = 0; // Variable to store the user's choice
-        int randomIndex = 0; // Variable to store the random index
+        String userChoice = ""; // Variable to store the user's choice
         String computerMove = ""; // Variable to store the computer's move
 
         System.out.println("--------------------------------------");
@@ -21,9 +20,7 @@ public class rockPaperScissors {
                 userMove = inputMove(); // Taking the user's move as input
 
                 String[] moves = {"ROCK", "PAPER", "SCISSORS"}; // Array to store the possible moves
-                randomIndex = random.nextInt(moves.length); // Generating a random index
-
-                computerMove = moves[randomIndex]; // Getting the computer's move
+                computerMove = moves[random.nextInt(moves.length)]; // Getting the computer's move
 
                 System.out.println("Computer's move: " + computerMove); // Printing the computer's move
 
@@ -32,23 +29,32 @@ public class rockPaperScissors {
                 System.out.println();
                 System.out.println("Your total score: " + userScore); // Printing the user's score
                 System.out.println();
-                System.out.print("Try again? [Press 1 to CONTINUE/ Press 2 to EXIT]: ");
-                userChoice = scanner.nextInt(); // Taking the user's choice as input
-                scanner.nextLine(); // Consuming the newline character
+                System.out.print("Try again? [yes/no]: "); // Asking the user if they want to play again
+                userChoice = scanner.nextLine().toLowerCase(); // Taking the user's choice as input and converting it to lowercase
                 System.out.println();
 
-            } while (userChoice != 2); // Loop to keep the game running until the user's score reaches 3
+            } while (userChoice.equalsIgnoreCase("yes")); // Loop to keep the game running until the user's score reaches 3
 
-        scanner.close(); // Closing the scanner object
-        //end of the program
+            scanner.close(); // Closing the scanner object
+            //end of the program
     }
 
 
     // to input the move of the user
     static String inputMove() {
+
         System.out.print("Enter you move (rock, paper, scissors): ");
         String userMove = scanner.nextLine();
-        return userMove;
+        if (!userMove.equalsIgnoreCase("rock") && !userMove.equalsIgnoreCase("paper")
+             && !userMove.equalsIgnoreCase("scissors")) {
+            System.out.println("Invalid move! Please enter a valid move.");
+            System.out.println();
+            return inputMove();
+        }
+        else{
+            return userMove;
+        }
+
     }
 
     // method to check the condition of the game
