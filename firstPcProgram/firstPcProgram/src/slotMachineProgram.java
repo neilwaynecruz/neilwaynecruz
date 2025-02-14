@@ -25,17 +25,17 @@ public class slotMachineProgram {
                 continue;
             }
 
-            userCurrentBalance = validateBet(userBet, userCurrentBalance);
+            userCurrentBalance = validateBet(userBet, userCurrentBalance); // to validate the user's bet if it is valid or not
             if (userCurrentBalance == -1) {
                 continue; 
             }
 
             System.out.println("\nSpinning the slot machine...");
-            row = spinSlots();
-            printRow(row);
-            userWinning = calculatePayout(row, userBet);
+            row = spinSlots(); // Spin the slot machine
+            printRow(row); // Print the row of the slot machine
+            userWinning = calculatePayout(row, userBet); // Calculate the payout
 
-            userCurrentBalance = updateBalanceAfterWin(userWinning, userCurrentBalance);
+            userCurrentBalance = updateBalanceAfterWin(userWinning, userCurrentBalance); // Update the balance
 
             System.out.print("Do you want to continue playing? [y/n]: ");
             userChoice = scanner.next().toLowerCase().charAt(0);
@@ -48,15 +48,18 @@ public class slotMachineProgram {
 
         System.out.printf("Thank you for playing! Your final balance is: P %.2f%n", userCurrentBalance);
         scanner.close(); 
-    }
+        
+    } // end of main method
 
+
+    // Method to print the opening message
     static void printOpeningMessage() {
         System.out.println("--------------------------------");
         System.out.println("Welcome to the Slot Machine Game!");
         System.out.println("Symbols: [7, $, #, @, *, ^]");
         System.out.println("--------------------------------\n");
     }
-
+    // Method to validate the user's bet
     static double validateBet(double userBet, double userCurrentBalance) {
         if (userBet > userCurrentBalance) {
             System.out.println("Insufficient balance! Please enter a valid bet.\n");
@@ -64,10 +67,12 @@ public class slotMachineProgram {
         } else if (userBet <= 0) {
             System.out.println("Invalid bet amount! Bet must be greater than 0.\n");
             return -1;
+        } else {
+            return userCurrentBalance - userBet;
         }
-        return userCurrentBalance - userBet;
     }
-
+    
+    // Method to spin the slot machine
     static String[] spinSlots() {
         String[] symbols = {"7", "$", "#", "@", "*", "^"};
         String[] spinRow = new String[3];
@@ -77,14 +82,16 @@ public class slotMachineProgram {
         }
         return spinRow;
     }
-
+    
+    // Method to print the row of the slot machine
     static void printRow(String[] row) {
         System.out.println("---------------------------");
         System.out.print("\t");
         System.out.println(String.join(" | ", row));
         System.out.println("---------------------------\n");
     }
-
+    
+    // Method to calculate the payout
     static double calculatePayout(String[] row, double userBet) {
         if (row[0].equals(row[1]) && row[1].equals(row[2])) {
             return switch (row[0]) {
@@ -119,7 +126,8 @@ public class slotMachineProgram {
         }
             return 0;
     }
-
+    
+    // Method to update the balance after a win
     static double updateBalanceAfterWin(double userWinning, double userCurrentBalance) {
         if (userWinning > 0) {
             System.out.printf("Congratulations! You won: P %.2f%n%n", userWinning);

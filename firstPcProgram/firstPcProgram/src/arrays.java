@@ -8,6 +8,12 @@ public class arrays {
         //         think of it as a variable that can hold multiple values (as long as it has the same data type)
         //         and you can access those values by referring to an index number.
 
+        // declaring an array
+        // dataType[] arrayName;
+        // dataType arrayName[];
+        // or dataType[] arrayName = {value0, value1, value2, ...};
+        // or dataType[] arrayName = new dataType[size];
+
         String[] cars = {"Camaro", "Corvette", "Tesla"};
         String[] fruits = {"Apple", "Banana", "Orange", "Blueberry", "Strawberry"};
 
