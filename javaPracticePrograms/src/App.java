@@ -13,6 +13,8 @@ public class App {
         int num2 = scanner.nextInt();
 
         System.out.println(sum(num1, num2));
+
+        scanner.close();
     }
 
     static int sum(int num1, int num2) {
