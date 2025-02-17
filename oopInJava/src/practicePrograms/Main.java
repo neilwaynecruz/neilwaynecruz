@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
 
             Emp emp1 = new Emp("Neil", "neil@gmail.com", "IT", 19, 200000);
 
