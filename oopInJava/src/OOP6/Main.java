@@ -3,7 +3,7 @@ package OOP6;
 public class Main {
     public static void main(String[] args) {
 
-        /* Inheritance = One class inherits the attributes and methods from another class.
+        /* inheritance = One class inherits the attributes and methods from another class.
                         CHILD <-- PARENT
 
                         extends
