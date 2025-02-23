@@ -14,13 +14,18 @@ public class Main {
         Person person = new Person("Neil Wayne", "Cruz");
         Student student = new Student("Winter", "Cruz", 1.5);
         Employee employee = new Employee("Nathan", "Cruz", 35000.00);
+        Teacher teacher = new Teacher("Pogi", "Ako", "LS123");
 
-        student.showName();
-        student.showGpa();
+        teacher.showScode();
 
-        System.out.println();
-        employee.showName();
-        employee.showSalary();
+
+//        student.showName();
+//        student.showGpa();
+//
+//
+//        System.out.println();
+//        employee.showName();
+//        employee.showSalary();
 
     }
 }
