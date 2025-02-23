@@ -4,17 +4,15 @@ package  practicePrograms;
 public class Main {
     public static void main(String[] args) {
 
+        Emp emp = new Emp("Neil Wayne", 19, 35000, 123);
 
-            Emp emp1 = new Emp("Neil", "neil@gmail.com", "IT", 19, 200000);
+//        System.out.println(emp.getName());
+//        System.out.println(emp.getId());
+//        System.out.println(emp.getAge());
+//        System.out.println(emp.getSalary());
 
-            emp1.salary = emp1.salaryDeduction(emp1.salary);
-
-            System.out.println(emp1.name);
-            System.out.println(emp1.email);
-            System.out.println(emp1.field);
-            System.out.println(emp1.age);
-            System.out.println(emp1.salary);
-            System.out.println();
+        emp.setName("Winter");
+        System.out.println(emp.getName());
 
 
     }
