@@ -1,7 +1,5 @@
 package MusicPlayer;
-
 import javax.sound.sampled.*;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,7 +8,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // how to play an audio (Supported formats: .wav, .au, .aiff)
-
         String filepath = "C:\\JAVA-OOP\\oopInJava\\src\\MusicPlayer\\Music1.wav";
 
         File file = new File(filepath);
