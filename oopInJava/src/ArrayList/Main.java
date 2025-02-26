@@ -11,7 +11,7 @@ public class Main {
 //        ArrayList = A resizeable array that stores objects (autoboxing)
 //                    Arrays are fixed in size, but Arraylist can change
 
-//               ArrayList<DataType(WrapperClass)> Identifier = new ArrayList<Optional (WrapperCLass)>();
+//               ArrayList<DataType(WrapperClass)> Identifier = new ArrayList<Optional(WrapperCLass)>();
 //
 //        ArrayList<String> list1 = new ArrayList<String>();
 //        ArrayList<Double> list2 = new ArrayList<>();
