@@ -1,3 +1,5 @@
+package firstJavaDsaBootCamp;
+
 import java.util.*;
 public class pracTwo {
     public static void main(String[] args) {

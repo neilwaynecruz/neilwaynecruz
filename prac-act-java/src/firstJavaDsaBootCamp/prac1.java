@@ -1,3 +1,5 @@
+package firstJavaDsaBootCamp;
+
 import java.util.Scanner;
 
 public class prac1 {

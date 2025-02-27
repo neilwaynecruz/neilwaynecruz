@@ -1,3 +1,4 @@
+package firstJavaDsaBootCamp;
 
 import java.util.Scanner;
 

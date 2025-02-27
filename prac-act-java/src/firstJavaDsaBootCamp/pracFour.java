@@ -1,3 +1,5 @@
+package firstJavaDsaBootCamp;
+
 import java.util.*;
 
 public class pracFour {
