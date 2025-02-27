@@ -27,6 +27,7 @@ public class Main {
                 }
             }
         };
+
         timer.scheduleAtFixedRate(task, 0, 1000);
         scanner.close();
     }
