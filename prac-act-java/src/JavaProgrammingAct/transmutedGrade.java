@@ -18,35 +18,35 @@ public class transmutedGrade {
         tg = score * 50 / numItems + 50;
 
 
-        if(tg >= 97 && tg <= 100){
+        if(tg >= 97){
             eq = 1.00;
-        }else if(tg >= 94 && tg <= 96){
+        }else if(tg >= 94){
             eq = 1.25;
-        }else if(tg >= 91 && tg <= 93){
+        }else if(tg >= 91){
             eq = 1.50;
-        }else if(tg >= 88 && tg <= 90){
+        }else if(tg >= 88){
             eq = 1.75;
-        } else if(tg >= 85 && tg <= 87){
+        } else if(tg >= 85){
             eq = 2.00;
-        } else if(tg >= 82 && tg <= 84){
+        } else if(tg >= 82){
             eq = 2.25;
-        } else if(tg >= 79 && tg <= 81){
+        } else if(tg >= 79){
             eq = 2.50;
-        } else if(tg >= 76 && tg <= 78){
+        } else if(tg >= 76){
             eq = 2.75;
         } else if(tg == 75){
             eq = 3.00;
         } else if(tg == 74){
             eq = 3.25;
-        } else if(tg >= 72 && tg <= 73){
+        } else if(tg >= 72){
             eq = 3.50;
-        } else if(tg >= 70 && tg <= 71){
+        } else if(tg >= 70){
             eq = 3.75;
-        } else if(tg >= 65 && tg <= 69){
+        } else if(tg >= 65){
             eq = 4.00;
-        } else if(tg >= 60 && tg <= 64){
+        } else if(tg >= 60){
             eq = 4.25;
-        } else if(tg >= 58 && tg <= 59){
+        } else if(tg >= 58){
             eq = 4.50;
         } else{
             eq = 5.00;
