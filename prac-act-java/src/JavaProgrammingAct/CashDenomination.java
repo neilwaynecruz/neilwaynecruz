@@ -16,9 +16,10 @@ public class CashDenomination {
         for(int i = 0; i < cashDenomination.length; i++) {
             int count = num / cashDenomination[i]; // 7
             num = num % cashDenomination[i];//  74
-            if (count > 0) {
-                System.out.println(cashDenomination[i] + " : " + count);
-            }
+            System.out.println(cashDenomination[i] + " : " + count);
+//            if (count > 0) {
+//                System.out.println(cashDenomination[i] + " : " + count);
+//            }
         }
     }
 
