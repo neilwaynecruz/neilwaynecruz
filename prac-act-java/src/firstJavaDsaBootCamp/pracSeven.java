@@ -17,7 +17,6 @@ public class pracSeven {
         
         for(int i = 0; i <= n ; i++){
             System.out.print(term1);
-
             nextTerm = term1 + term2;
             term1 = term2; 
             term2 = nextTerm; 

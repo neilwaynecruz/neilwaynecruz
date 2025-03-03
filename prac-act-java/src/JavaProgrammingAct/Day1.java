@@ -27,11 +27,6 @@ public class Day1 {
         System.out.println("Your Name is: " + firstname + " " + lastname);
         System.out.println("Your Age is: " + age);
         System.out.println("Your Weight is: " + weight);
-    }
-}
-
-
-
 
 
 
@@ -51,3 +46,8 @@ public class Day1 {
 //        System.out.println("pi2 = " + pi2);
 //        System.out.println("isTrue = " + isTrue);
 //        System.out.println("word = " + word);
+
+    }
+}
+
+
