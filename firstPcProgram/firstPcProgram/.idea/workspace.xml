@@ -5,8 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/OOP/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FirstPrograms/bin/Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../FirstPrograms/bin/Arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/Program2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/Static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayInputToUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arrayInputToUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayInputToUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arrayInputToUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraySearching.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arraySearching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraySearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arraySearching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/breakAndContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/breakAndContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculatorProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/calculatorProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculatorProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/calculatorProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoundInterestCal.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/compoundInterestCal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compoundInterestCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/compoundInterestCal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diceRollerProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/diceRollerProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enhancedSwitches.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/enhancedSwitches.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enhancedSwitches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/enhancedSwitches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forEachLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/forEachLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forEachLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/forEachLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forLoops.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/forLoops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/forLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/if_elseStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/if_elseStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loopDeleteLater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/loopDeleteLater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/mathMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/mathMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathMethod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/mathMethod2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nestedIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/nestedIf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nestedIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/nestedIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nestedLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/nestedLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/overloadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/overloadMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/printf.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/printf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/printf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quizGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/quizGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quizGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/quizGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/randomGuessingNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/randomGuessingNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/randomNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/randomNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rockPaperScissors.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/rockPaperScissors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/rockPaperScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/shoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleBankingProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/simpleBankingProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleBankingProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/simpleBankingProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slotMachineProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/slotMachineProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slotMachineProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/slotMachineProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strMeth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/strMeth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subStrMeth.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/subStrMeth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subStrMeth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/subStrMeth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tempConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/tempConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ternaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/ternaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twoDimensinalArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/twoDimensinalArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twoDimensinalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/twoDimensinalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/varArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/varArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/varArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/varArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weightConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/weightConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,29 +79,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.diceRollerProgram.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diceRollerProgram.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/VSCODE-FOR-JAVA/firstPcProgram/firstPcProgram&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VSCODE-FOR-JAVA\firstPcProgram\firstPcProgram\src\Programs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
       </set>
     </attachedChunks>
   </component>
@@ -68,6 +129,10 @@
       <workItem from="1739726578977" duration="34000" />
       <workItem from="1739726621983" duration="391000" />
       <workItem from="1739727490702" duration="224000" />
+      <workItem from="1740753430728" duration="27000" />
+      <workItem from="1740759794821" duration="4000" />
+      <workItem from="1740913163664" duration="38000" />
+      <workItem from="1741019134139" duration="277000" />
     </task>
     <servers />
   </component>
