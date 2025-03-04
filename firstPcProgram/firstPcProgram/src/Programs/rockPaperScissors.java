@@ -45,7 +45,7 @@ public class rockPaperScissors {
     // to input the move of the user
     static String inputMove() {
 
-        System.out.print("Enter you move (rock, paper, scissors): ");
+        System.out.print("Enter your move (rock, paper, scissors): ");
         String userMove = scanner.nextLine();
         if (!userMove.equalsIgnoreCase("rock") && !userMove.equalsIgnoreCase("paper")
              && !userMove.equalsIgnoreCase("scissors")) {

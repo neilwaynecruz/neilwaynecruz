@@ -13,7 +13,7 @@ public class randomGuessingNum {
         int min = 0;
         int max = 0;
 
-        System.out.println("\t\t\t\t\tNUMBER GUESSING GAME");
+        System.out.println("NUMBER GUESSING GAME");
         
         System.out.print("Enter the range you want, 1st number: ");
         min = scanner.nextInt();
@@ -38,11 +38,11 @@ public class randomGuessingNum {
             }
             else{
                 System.out.println("CORRECT!, The number was: " + randomNum);
-                System.out.println("Number of attemts you've made: " + attempt);
+                System.out.println("Number of attempts you've made: " + attempt);
             }
         }while(guess != randomNum);
 
-        System.out.println("\t\t\t\t\tEND OF PROGRAM!");
+        System.out.println("END OF PROGRAM!");
 
         scanner.close();
     }
