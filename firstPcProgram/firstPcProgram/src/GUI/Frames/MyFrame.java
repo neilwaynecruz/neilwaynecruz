@@ -5,7 +5,6 @@ import java.awt.*;
 //JFrame frame = new JFrame(); // Create a frame
 public class MyFrame extends JFrame {
 
-
     MyFrame(){
 
         this.setTitle("My First Frame");                       // Set title of frame
