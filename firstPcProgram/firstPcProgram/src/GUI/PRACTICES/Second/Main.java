@@ -6,7 +6,7 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
 
-        ImageIcon icon = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\PRACTICES\\Second\\img.png");
+        ImageIcon icon = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\PRACTICES\\Second\\1604087950088 (1).jpg");
 
         // for labels
         JLabel label = new JLabel();
@@ -17,7 +17,7 @@ public class Main {
 
         JLabel label2 = new JLabel();
         label2.setIcon(icon);
-        label2.setBounds(360, 280, 490, 490);
+        label2.setBounds(420, 270, 435, 490);
 
 
         // for panels
