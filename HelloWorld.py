@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # a = 0
 #
@@ -27,3 +28,9 @@
 #     print("GOOD MORNINGGGG!!")
 
 
+=======
+a = 20
+
+a + 10
+print(a)
+>>>>>>> 36926cbaf0b42d909f83f37e567396471e60bfa1
