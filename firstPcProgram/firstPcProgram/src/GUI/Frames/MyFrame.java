@@ -1,6 +1,7 @@
 package GUI.Frames;
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 //JFrame frame = new JFrame(); // Create a frame
 public class MyFrame extends JFrame {
@@ -12,7 +13,8 @@ public class MyFrame extends JFrame {
         this.setResizable(false);                          // Prevent frame from being resized
         this.setSize(500, 500);                // Set size of frame x, y dimensions
 
-        ImageIcon image = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\Frames\\img.png");
+        ImageIcon image = new ImageIcon(Objects.requireNonNull(getClass().getResource("img.png")));
+
         // Create an ImageIcon
         this.setIconImage(image.getImage());               // Change icon of frame
 

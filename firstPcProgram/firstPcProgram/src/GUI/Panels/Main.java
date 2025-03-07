@@ -2,13 +2,14 @@ package GUI.Panels;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
 //        JPanel = a GUI component that functions as a container to hold other components
 
         //for image
-        ImageIcon icon = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\Panels\\like.png");
+        ImageIcon icon = new ImageIcon(Objects.requireNonNull(Main.class.getResource("like.png")));
 
         //LABELS
         JLabel label = new JLabel();

@@ -3,12 +3,13 @@ package GUI.Labels;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
         // Jlabel = a GUI display area for a string of text, an image, or both
 
-        ImageIcon image = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\Labels\\The 100 Most Important Dog Photos Of All Time.png");
+        ImageIcon image = new ImageIcon(Objects.requireNonNull(Main.class.getResource("The 100 Most Important Dog Photos Of All Time.png")));
         JFrame frame = new JFrame(); // create a frame
         JLabel label = new JLabel(); //create a label
         Border border = BorderFactory.createLineBorder(new Color(121, 50, 50), 5); // create a border
