@@ -1,4 +1,4 @@
-package JavaProgrammingAct;
+package JavaProgrammingAct.JOPTIONPANE;
 
 import javax.swing.*;
 
@@ -10,10 +10,13 @@ public class transmutedGrade {
         double score = 0.0;
         double eq = 0.0;
 
-        JOptionPane j = new JOptionPane();
+        score = Double.parseDouble(JOptionPane.showInputDialog("Enter your score: "));
+        numItems = Integer.parseInt(JOptionPane.showInputDialog("Enter number of items: "));
 
-        score = Double.parseDouble(j.showInputDialog("Enter your score: "));
-        numItems = Integer.parseInt(j.showInputDialog("Enter number of items: "));
+        if (numItems <= 0) {
+            JOptionPane.showMessageDialog(null, "Number of items must be greater than zero.", "Error", JOptionPane.ERROR_MESSAGE);
+            System.exit(0);
+        }
 
         tg = score * 50 / numItems + 50;
 
@@ -52,8 +55,10 @@ public class transmutedGrade {
             eq = 5.00;
         }
 
-        System.out.printf("Transmuted grade is %.2f\n", tg);
-        System.out.printf("Equivalent grade is %.2f\n", eq);
+//        System.out.printf("Transmuted grade is %.2f\n", tg);
+//        System.out.printf("Equivalent grade is %.2f\n", eq);
+
+        JOptionPane.showMessageDialog(null, String.format("Transmuted grade is %.2f\nEquivalent grade is %.2f", tg, eq), "Grade Result", JOptionPane.PLAIN_MESSAGE);
 
     }
 }
