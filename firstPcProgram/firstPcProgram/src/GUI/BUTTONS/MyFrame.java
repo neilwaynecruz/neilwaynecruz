@@ -32,7 +32,7 @@ public class MyFrame extends JFrame implements ActionListener {
         button.setHorizontalTextPosition(JButton.LEFT);
         button.setVerticalTextPosition(JButton.CENTER);
         button.setIconTextGap(10);
-        button.setBorder(BorderFactory.createCompoundBorder());
+        button.setBorder(BorderFactory.createBevelBorder(0, Color.RED, Color.BLUE));
         button.addActionListener(this);
         button.setFocusable(false);
 
