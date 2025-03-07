@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Objects;
 
 public class MyFrame extends JFrame implements ActionListener {
 
@@ -12,8 +13,8 @@ public class MyFrame extends JFrame implements ActionListener {
 
     MyFrame() {
 
-        ImageIcon icon = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\BUTTONS\\img.png");
-        ImageIcon icon2 = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\BUTTONS\\shocked.png");
+        ImageIcon icon = new ImageIcon(Objects.requireNonNull(getClass().getResource("img.png")));
+        ImageIcon icon2 = new ImageIcon(Objects.requireNonNull(getClass().getResource("shocked.png")));
 
         // for the label
         label.setIcon(icon2);
