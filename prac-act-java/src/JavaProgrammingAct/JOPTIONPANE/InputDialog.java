@@ -2,7 +2,7 @@ package JavaProgrammingAct.JOPTIONPANE;
 
 import javax.swing.*;
 
-public class InputeDialog {
+public class InputDialog {
     public static void main(String[] args) {
 
         String name;

@@ -7,12 +7,11 @@ public class InputDemo {
         String x = "";
         int age = 0;
 
-        JOptionPane j = new JOptionPane();
-
-        j.showMessageDialog(null, "Sample Dialog", "Dialog box demo", j.PLAIN_MESSAGE);
-        x = j.showInputDialog("Enter your name");
-        j.showMessageDialog(null, "Hello " + x, "Dialog box demo", j.PLAIN_MESSAGE);
-        age = Integer.parseInt(j.showInputDialog("Enter your age"));
-        j.showMessageDialog(null, "You are " + age + " years old ", "Dialog box demo", j.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Sample Dialog", "Dialog box demo", JOptionPane.PLAIN_MESSAGE);
+        x = JOptionPane.showInputDialog("Enter your name");
+        JOptionPane.showMessageDialog(null, "Hello " + x, "Dialog box demo", JOptionPane.PLAIN_MESSAGE);
+        age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        JOptionPane.showMessageDialog(null, "You are " + age + " years old ", "Dialog box demo", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showConfirmDialog(null, "Do you want to continue?", "Dialog box demo", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
     }
 }
