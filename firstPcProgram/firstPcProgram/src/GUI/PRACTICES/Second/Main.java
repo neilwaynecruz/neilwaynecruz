@@ -2,11 +2,12 @@ package GUI.PRACTICES.Second;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
 
-        ImageIcon icon = new ImageIcon("C:\\mainMasterBranch\\firstPcProgram\\firstPcProgram\\src\\GUI\\PRACTICES\\Second\\1604087950088 (1).jpg");
+        ImageIcon icon = new ImageIcon(Objects.requireNonNull(Main.class.getResource("TheFuck.jpg")));
 
         // for labels
         JLabel label = new JLabel();
