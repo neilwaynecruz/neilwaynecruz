@@ -65,11 +65,11 @@ public class CounterApp extends JFrame implements ActionListener {
         if (e.getActionCommand().equals("Increase")) {
             count++;
         } else if (e.getActionCommand().equals("Decrease")) {
-//            if (count <= 0)
-//                count = 0;
-//            if(count > 0){
-//                count--;
-//            }
+            if (count <= 0)
+                count = 0;
+            if(count > 0){
+                count--;
+            }
         }
         else if (e.getActionCommand().equals("Reset")) {
             count = 0;
