@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/BUTTONS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/BUTTONS/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/Frames/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/Frames/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/Labels/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/Labels/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/PRACTICES/First/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/PRACTICES/First/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/PRACTICES/Second/1604087950088 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/PRACTICES/Second/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/PRACTICES/Second/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/PRACTICES/Third/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/GUI/Panels/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/GUI/Panels/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/Program2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/Static.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/arrayInputToUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/arraySearching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/breakAndContinue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/calculatorProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/compoundInterestCal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/diceRollerProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/enhancedSwitches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/forEachLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/forLoops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/if_elseStatements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/loopDeleteLater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/mathMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/mathMethod2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/nestedIf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/nestedLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/overloadMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/printf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/quizGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/randomGuessingNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/randomNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/rockPaperScissors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/shoppingCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/simpleBankingProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/slotMachineProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/strMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/subStrMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/tempConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/ternaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/twoDimensinalArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/varArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/weightConverter.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +66,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diceRollerProgram.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/VSCODE-FOR-JAVA/firstPcProgram/firstPcProgram&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.diceRollerProgram.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/JAVAFOLDER/VSCODE-FOR-JAVA/firstPcProgram/firstPcProgram",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\VSCODE-FOR-JAVA\firstPcProgram\firstPcProgram\src\Programs" />
@@ -80,6 +123,7 @@
       <workItem from="1741019679382" duration="8000" />
       <workItem from="1741085917766" duration="8000" />
       <workItem from="1741086049990" duration="74000" />
+      <workItem from="1742014563291" duration="684000" />
     </task>
     <servers />
   </component>
