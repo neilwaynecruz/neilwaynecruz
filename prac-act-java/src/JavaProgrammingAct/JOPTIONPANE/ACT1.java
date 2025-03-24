@@ -1,81 +1,90 @@
 package JavaProgrammingAct.JOPTIONPANE;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class ACT1 {
     public static void main(String[] args) {
+
+        //GRADING SYSTEM
+
         JTextArea textArea = new JTextArea();
-        int choice = 0;
-        String warning = "Score can't exceed No. of items. Please enter again.";
-
-        while (choice == 0) {
+        do{
             textArea.setText("");
+            String grading_system = "";
+            double ave = 0.00;
+            double q1,q2,q3,q4 = 0.00;
 
-            double score1, score2;
-            int no_items1, no_items2;
-
-            // Input for Quiz 1 (repeat if invalid)
             while (true) {
-                score1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Score: ", "QUIZ 1", JOptionPane.QUESTION_MESSAGE));
-                no_items1 = Integer.parseInt(JOptionPane.showInputDialog(null, "No of items: ", "QUIZ 1", JOptionPane.QUESTION_MESSAGE));
-
-                if (score1 > no_items1) {
-                    JOptionPane.showMessageDialog(null, warning, "WARNING", JOptionPane.ERROR_MESSAGE);
-                } else {
-                    break; // Valid input, exit loop
+                try {
+                    q1 = Float.parseFloat(JOptionPane.showInputDialog(null, "FIRST QUARTER: ", "Input", JOptionPane.QUESTION_MESSAGE));
+                    break;
+                } catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null, "Invalid input! Please enter a numeric value.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
 
-            // Input for Quiz 2 (repeat if invalid)
             while (true) {
-                score2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Score: ", "QUIZ 2", JOptionPane.QUESTION_MESSAGE));
-                no_items2 = Integer.parseInt(JOptionPane.showInputDialog(null, "No of items: ", "QUIZ 2", JOptionPane.QUESTION_MESSAGE));
-
-                if (score2 > no_items2) {
-                    JOptionPane.showMessageDialog(null, warning, "WARNING", JOptionPane.ERROR_MESSAGE);
-                } else {
-                    break; // Valid input, exit loop
+                try {
+                    q2 = Float.parseFloat(JOptionPane.showInputDialog(null, "SECOND QUARTER: ", "Input", JOptionPane.QUESTION_MESSAGE));
+                    break;
+                } catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null, "Invalid input! Please enter a numeric value.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
 
-            // Calculate TG Average and Percentage
-            double tg = ((score1 + score2) / (no_items1 + no_items2)) * 50 + 50;
-            double ave = grades(tg);
-            double percentage = ave * 0.35;
-
-            // Output Results
-            String q_ave = String.format("QUIZ AVERAGE: %.2f \n", ave);
-            String s_percentage = "35% = " + String.format("%.2f", percentage);
-
-            textArea.append(q_ave);
-            textArea.append(s_percentage);
-            JOptionPane.showMessageDialog(null, textArea, "OUTPUT", JOptionPane.INFORMATION_MESSAGE);
-
-            // Ask if the user wants to continue (Yes = 0, No = 1, Cancel = 2)
-            choice = JOptionPane.showConfirmDialog(null, "CONTINUE?", "CONTINUE?", JOptionPane.YES_NO_CANCEL_OPTION);
-
-            if (choice == JOptionPane.NO_OPTION || choice == JOptionPane.CANCEL_OPTION || choice == -1) {
-                break; // Exit the loop if "No" or "Cancel" is chosen
+            while (true) {
+                try {
+                    q3 = Float.parseFloat(JOptionPane.showInputDialog(null, "THIRD QUARTER: ", "Input", JOptionPane.QUESTION_MESSAGE));
+                    break;
+                } catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null, "Invalid input! Please enter a numeric value.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
             }
-        }
-    }
-    // Method to calculate equivalent grades
-    static double grades(double tg) {
-        if (tg >= 97) return 1.00;
-        if (tg >= 94) return 1.25;
-        if (tg >= 91) return 1.50;
-        if (tg >= 88) return 1.75;
-        if (tg >= 85) return 2.00;
-        if (tg >= 82) return 2.25;
-        if (tg >= 79) return 2.50;
-        if (tg >= 76) return 2.75;
-        if (tg == 75) return 3.00;
-        if (tg == 74) return 3.25;
-        if (tg >= 72) return 3.50;
-        if (tg >= 70) return 3.75;
-        if (tg >= 65) return 4.00;
-        if (tg >= 60) return 4.25;
-        if (tg >= 58) return 4.50;
-        return 5.00;
+
+            while (true) {
+                try {
+                    q4 = Float.parseFloat(JOptionPane.showInputDialog(null, "FOURTH QUARTER: ", "Input", JOptionPane.QUESTION_MESSAGE));
+                    break;
+                } catch (NumberFormatException e) {
+                    JOptionPane.showMessageDialog(null, "Invalid input! Please enter a numeric value.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+
+            while(true) {
+                grading_system = String.valueOf(JOptionPane.showInputDialog(null, "GRADING SYSTEM [A-C]:", "Input", JOptionPane.QUESTION_MESSAGE).toUpperCase().charAt(0));
+
+                if (grading_system.equals("A")||grading_system.equals("B")||grading_system.equals("C")){
+                    break;
+                } else{
+                    JOptionPane.showMessageDialog(null, "INVALID GRADING SYSTEM", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+
+            switch (grading_system) {
+                case "A" -> {
+                    textArea.append("AVERAGING\n");
+                    ave = ((q1 + q2 + q3 + q4) / 4);
+                }
+                case "B" -> {
+                    textArea.append("WEIGHTED AVERAGING\n");
+                    ave = ((q1 * .2) + (q2 * .2) + (q3 * .2) + (q4 * .4));
+                }
+                case "C" -> {
+                    textArea.append("CUMULATIVE\n");
+                    ave = (q4);
+                }
+            }
+
+            textArea.append("AVERAGE = " + String.format("%.2f", ave));
+            JOptionPane.showMessageDialog(null,textArea,"OUTPUT",JOptionPane.INFORMATION_MESSAGE);
+
+            int choice = JOptionPane.showConfirmDialog(null,"CONTINUE [Y/N]?","Input",JOptionPane.YES_NO_CANCEL_OPTION);
+            if (choice == JOptionPane.NO_OPTION || choice == JOptionPane.CANCEL_OPTION || choice == JOptionPane.CLOSED_OPTION){
+                break;
+            }
+
+        }while (true);
+
     }
 }
