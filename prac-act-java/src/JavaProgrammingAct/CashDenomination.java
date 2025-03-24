@@ -21,6 +21,7 @@ public class CashDenomination {
 //                System.out.println(cashDenomination[i] + " : " + count);
 //            }
         }
+        scanner.close();
     }
 
 }

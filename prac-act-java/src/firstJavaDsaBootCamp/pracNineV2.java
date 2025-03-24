@@ -40,5 +40,6 @@ public class pracNineV2 {
         findArmstrong(num1, num2);
         System.out.println();
 
+        scanner.close();
     }
 }

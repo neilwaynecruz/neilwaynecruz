@@ -1,7 +1,6 @@
 package JavaProgrammingAct.JOPTIONPANE;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class ACT1 {
     public static void main(String[] args) {

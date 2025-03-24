@@ -5,8 +5,8 @@ import javax.swing.*;
 public class InputDialog {
     public static void main(String[] args) {
 
-        String name;
-        int age;
+        // String name;
+        // int age;
         String message = "";
 
 

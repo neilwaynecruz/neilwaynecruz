@@ -25,6 +25,7 @@ public class LinearSearch {
         else{
             System.out.println("Not Found");
         }
+        sc.close();
 
     }
 

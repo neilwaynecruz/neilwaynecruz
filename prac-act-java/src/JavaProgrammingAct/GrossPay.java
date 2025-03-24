@@ -29,5 +29,7 @@ public class GrossPay {
         System.out.printf("Withholding Tax: %.3f\n", withholdingTax);
         System.out.printf("Net Pay: %.3f\n", netPay);
 
+        scanner.close();
+
     }
 }

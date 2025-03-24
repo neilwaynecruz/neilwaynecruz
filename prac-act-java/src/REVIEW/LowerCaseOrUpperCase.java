@@ -14,6 +14,7 @@ public class LowerCaseOrUpperCase {
             System.out.println("The letter " + letter + " is uppercase");
         }
 
+        scanner.close();
 
     }
 }

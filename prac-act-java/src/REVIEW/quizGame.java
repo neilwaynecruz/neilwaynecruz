@@ -33,6 +33,7 @@ public class quizGame {
             System.out.println("YOU LOST!");
         }
 
+        scanner.close();
 
     }
 

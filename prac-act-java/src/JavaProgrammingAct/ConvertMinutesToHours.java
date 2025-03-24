@@ -17,5 +17,6 @@ public class ConvertMinutesToHours {
         System.out.println("Minutes: " + minutes);
         System.out.println("Converted hours: " + hours + " hours and " + remMinutes + " minutes");
 
+        scanner.close();
     }
 }

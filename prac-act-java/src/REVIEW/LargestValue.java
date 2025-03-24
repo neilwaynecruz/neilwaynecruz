@@ -26,7 +26,7 @@ public class LargestValue {
 
        System.out.println(Math.max(Math.max(a, b), c));
 
-
+        scanner.close();
 
 
     }
