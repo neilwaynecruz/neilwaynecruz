@@ -1,8 +1,5 @@
 package GUI.Frames;
 
-import javax.swing.*;
-import java.awt.*;
-
 public class Frames {
     public static void main(String[] args) {
 
