@@ -1,4 +1,4 @@
-package REVIEW;
+package REVIEW.LinearSearch;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class LinearSearch {
         System.out.println();
         System.out.println("The target is: " + target);
 
-        if(linerSearch(name, target)) {
+        if(linearSearch(name, target)) {
             System.out.println("Found");
         }
         else{
@@ -29,7 +29,7 @@ public class LinearSearch {
 
     }
 
-    static boolean linerSearch(String n, char target){
+    static boolean linearSearch(String n, char target){
         for (int i = 0; i < n.length(); i++) {
             if (n.charAt(i) == target) {
                 return true;

@@ -1,4 +1,4 @@
-package REVIEW;
+package REVIEW.LinearSearch;
 
 import java.util.Arrays;
 
