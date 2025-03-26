@@ -1,13 +1,13 @@
 package REVIEW;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+// import java.util.Arrays;
+// import java.util.Scanner;
 
 public class TwoDimensionalArr {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        // Scanner in = new Scanner(System.in);
 //
 //        int[][] nums = new int[3][3];
 //

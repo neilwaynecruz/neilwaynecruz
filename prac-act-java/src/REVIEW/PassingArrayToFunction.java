@@ -1,6 +1,6 @@
 package REVIEW;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,6 +20,8 @@ public class PassingArrayToFunction {
         swap(nums,index1,index2);
 
         System.out.println(Arrays.toString(nums));
+
+        in.close();
 
     }
 
