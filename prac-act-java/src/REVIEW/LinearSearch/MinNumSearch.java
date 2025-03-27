@@ -8,12 +8,12 @@ public class MinNumSearch {
 
     static int minNum(int[] arr1){
        if (arr1.length == 0){
-           return -1;
+           return Integer.MIN_VALUE;
        }
 
        int min = arr1[0];
        for(int i = 0; i < arr1.length; i++){
-            if(min > arr1[i]){
+            if(arr1[i] < min){
                 min = arr1[i];
             }
        }
