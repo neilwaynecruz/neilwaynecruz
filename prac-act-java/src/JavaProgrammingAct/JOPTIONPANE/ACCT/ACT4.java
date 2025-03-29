@@ -1,12 +1,11 @@
-package JavaProgrammingAct.JOPTIONPANE;
-import javax.swing.*;
+package JavaProgrammingAct.JOPTIONPANE.ACCT;
 
 public class ACT4 {
     public static void main(String[] args) {
 
 //        JTextArea textArea = new JTextArea();
 
-//        1st part
+//        1st part;
 //        int[] y = {55,24,16,4,20,42};
 //        y[4] = 42;
 //
@@ -15,7 +14,7 @@ public class ACT4 {
 //        }
 //        JOptionPane.showMessageDialog(null,textArea,"OUTPUT",JOptionPane.INFORMATION_MESSAGE);
 
-////        2nd part
+//        2nd part;
 //        int[] arr1 = new int[5];
 //
 //        for(int i = 0; i<arr1.length; i++) {
