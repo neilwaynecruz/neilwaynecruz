@@ -1,4 +1,4 @@
-package JavaProgrammingAct.JOPTIONPANE.ACCT;
+package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING;
 
 import javax.swing.*;
 

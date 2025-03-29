@@ -1,4 +1,4 @@
-package JavaProgrammingAct.JOPTIONPANE.ACCT;
+package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING;
 
 public class ACT4 {
     public static void main(String[] args) {
