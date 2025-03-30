@@ -26,5 +26,6 @@ public class Main {
             System.out.println("INVALID INPUT");
         }
 
+        scanner.close();
     }
 }

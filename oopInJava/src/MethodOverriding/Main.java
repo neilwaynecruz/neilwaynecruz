@@ -14,6 +14,7 @@ public class Main {
         Cat cat = new Cat();
         Fish fish = new Fish();
 
+        animal.move();
         dog.move();
         cat.move();
         fish.move();

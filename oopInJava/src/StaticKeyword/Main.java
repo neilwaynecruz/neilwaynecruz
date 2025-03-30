@@ -24,6 +24,14 @@ public class Main{
         Friend f5 = new Friend("Jack", 22);
         Friend f6 = new Friend("John", 21);
 
-        Friend.showFriend();
+        
+        System.out.println(f1.name + " is " + f1.age + " years old.");
+        System.out.println(f2.name + " is " + f2.age + " years old.");
+        System.out.println(f3.name + " is " + f3.age + " years old.");
+        System.out.println(f4.name + " is " + f4.age + " years old.");
+        System.out.println(f5.name + " is " + f5.age + " years old.");
+        System.out.println(f6.name + " is " + f6.age + " years old.");
+        System.out.println(Friend.numOfFriends + " friends in total.");
+        
     }
 }

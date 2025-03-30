@@ -2,7 +2,7 @@ package ArrayList;
 
 
 import java.util.ArrayList;
-import java.util.Collections; // for arraylist
+// import java.util.Collections; // for arraylist
 import java.util.Scanner;
 
 

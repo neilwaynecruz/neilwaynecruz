@@ -1,7 +1,7 @@
 package practicePrograms;
 
 import java.util.ArrayList;
-import java.util.Collections;
+// import java.util.Collections;
 import java.util.Scanner;
 
 public class ArrayLists {
@@ -23,7 +23,7 @@ public class ArrayLists {
         System.out.println();
         System.out.println("Your favorite colors are: " + color);
 
-
+        scanner.close();
 
 
     }

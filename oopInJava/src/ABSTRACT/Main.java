@@ -19,7 +19,6 @@ public class Main {
         System.out.println(circle.area());
         System.out.println(triangle.area());
         System.out.println(rectangle.area());
-
-
+        
     }
 }

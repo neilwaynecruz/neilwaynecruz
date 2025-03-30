@@ -50,6 +50,7 @@ public class Main {
             System.out.printf("%s : %.2f\n", key, map.get(key));
         }
 
+        scanner.close();
 
     }
 }

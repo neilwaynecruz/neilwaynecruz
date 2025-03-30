@@ -18,14 +18,14 @@ public class Main {
 
         teacher.showScode();
 
+       person.showName();
+       student.showName();
+       student.showGpa();
 
-//        student.showName();
-//        student.showGpa();
-//
-//
-//        System.out.println();
-//        employee.showName();
-//        employee.showSalary();
+
+       System.out.println();
+       employee.showName();
+       employee.showSalary();
 
     }
 }

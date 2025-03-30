@@ -14,7 +14,7 @@ public class Main {
 
         Library library = new Library("PH LIBRARY", 1988, books);
 
- //       library.displayInfo();
+       library.displayInfo();
 
 
     }
