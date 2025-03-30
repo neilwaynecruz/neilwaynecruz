@@ -1,9 +1,12 @@
-package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING;
+package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING.NUMBERTWO;
 
 import javax.swing.*;
 
 public class MyCLASS extends MyMethods {
     public static void main(String[] args) {
+        // find the transmuted grade and equivalent grade
+
+        
         JTextArea ta = new JTextArea();
 
         // input

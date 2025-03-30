@@ -1,4 +1,4 @@
-package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING;
+package JavaProgrammingAct.JOPTIONPANE.THIRDMEETING.NUMBERTWO;
 
 public class MyMethods {
     public static double TG(double score, int no_items){ // accepts score and no items
