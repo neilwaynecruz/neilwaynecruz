@@ -3,8 +3,7 @@ package GUI.Frames;
 public class Frames {
     public static void main(String[] args) {
 
-        MyFrame myframe = new MyFrame(); // Create an instance of
-
+        new MyFrame();
     }
 
 }
