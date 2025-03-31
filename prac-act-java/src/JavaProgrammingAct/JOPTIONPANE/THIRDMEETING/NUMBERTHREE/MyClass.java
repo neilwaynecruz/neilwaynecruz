@@ -13,7 +13,6 @@ public class MyClass extends MyMethods{
         double q2 = Double.parseDouble(JOptionPane.showInputDialog(null,"QUIZ 2: ","INPUT",JOptionPane.QUESTION_MESSAGE));
 
 
-
         double lab1 = Double.parseDouble(JOptionPane.showInputDialog(null,"LAB 1: ","INPUT",JOptionPane.QUESTION_MESSAGE));
         double lab2 = Double.parseDouble(JOptionPane.showInputDialog(null,"LAB 2: ","INPUT",JOptionPane.QUESTION_MESSAGE));
         double lab3 = Double.parseDouble(JOptionPane.showInputDialog(null,"LAB 3: ","INPUT",JOptionPane.QUESTION_MESSAGE));
