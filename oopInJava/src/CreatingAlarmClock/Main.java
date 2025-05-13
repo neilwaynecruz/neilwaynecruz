@@ -13,7 +13,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalTime alarmTime = null;
-        String filePath = "C:\\JAVA-OOP\\oopInJava\\src\\CreatingAlarmClock\\hip-hop-news-271179.wav";
+        String filePath = "oopInJava/src/CreatingAlarmClock/hip-hop-news-271179.wav";
 
         while (alarmTime == null) {
             try {
