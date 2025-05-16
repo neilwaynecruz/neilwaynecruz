@@ -13,7 +13,8 @@ public class MyFrame extends JFrame {
         this.setResizable(false);                          // Prevent frame from being resized
         this.setSize(500, 500);                // Set size of frame x, y dimensions
 
-        ImageIcon image = new ImageIcon(Objects.requireNonNull(getClass().getResource("img.png")));
+//        ImageIcon image = new ImageIcon(Objects.requireNonNull(getClass().getResource("img.png")));
+        ImageIcon image = new ImageIcon("src/GUI/Frames/img.png");
 
         // Create an ImageIcon
         this.setIconImage(image.getImage());               // Change icon of frame
