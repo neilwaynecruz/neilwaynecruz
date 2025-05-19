@@ -1,0 +1,16 @@
+{
+      "name": "Neil",
+      "age": 20,
+      "is_student": true,
+      "courses": [
+            "Python",
+            "Java",
+            "C++",
+            "C#"
+      ],
+      "address": {
+            "street": "123 Main St",
+            "city": "New York",
+            "state": "NY"
+      }
+}
