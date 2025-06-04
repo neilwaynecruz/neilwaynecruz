@@ -47,10 +47,10 @@ public class MyFrame extends JFrame implements ActionListener {
         if(e.getSource() == button){
 
             if(checkBox.isSelected()){
-                System.out.println("YOU'RE A ROBOT!!");
+                System.out.println("OO TOL POGI KA!!");
             }
             else{
-                System.out.println("YOU'RE NOT A ROBOT!!");
+                System.out.println("EWAN KO SAYO TOL!!");
             }
         }
 
