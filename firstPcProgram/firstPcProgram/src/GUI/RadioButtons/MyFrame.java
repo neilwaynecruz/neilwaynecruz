@@ -10,9 +10,9 @@ public class MyFrame extends JFrame implements ActionListener{
     JRadioButton rdbHotdog = new JRadioButton("Hotdog");
     ButtonGroup buttonGroup = new ButtonGroup();
 
-    ImageIcon iconPizza = new ImageIcon("src/GUI/RadioButtons/pizza.jpg");
-    ImageIcon iconHamburger = new ImageIcon("src/GUI/RadioButtons/hamburger.jpg");
-    ImageIcon iconHotdog = new ImageIcon("src/GUI/RadioButtons/hot-dog.jpg");
+    ImageIcon iconPizza = new ImageIcon("firstPcProgram/src/GUI/RadioButtons/pizza.jpg");
+    ImageIcon iconHamburger = new ImageIcon("firstPcProgram/src/GUI/RadioButtons/hamburger.jpg");
+    ImageIcon iconHotdog = new ImageIcon("firstPcProgram/src/GUI/RadioButtons/hot-dog.jpg");
 
     public MyFrame() {
 
@@ -32,6 +32,7 @@ public class MyFrame extends JFrame implements ActionListener{
         rdbPizza.addActionListener(this);
         rdbHamburger.addActionListener(this);
         rdbHotdog.addActionListener(this);
+        rdbHotdog.setSelected(true);
 
 
         add(rdbPizza); rdbPizza.setFocusable(false);

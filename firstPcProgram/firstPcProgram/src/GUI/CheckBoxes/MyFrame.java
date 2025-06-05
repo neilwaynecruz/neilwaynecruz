@@ -31,7 +31,7 @@ public class MyFrame extends JFrame implements ActionListener {
         checkBox.setFocusable(Boolean.FALSE);
         checkBox.setFont(new Font("Serif", Font.BOLD, 38));
         checkBox.setForeground(new Color(171, 67, 67));
-        checkBox.setSelected(true);
+        checkBox.setSelected(false);
         checkBox.setIcon(xIcon);
         checkBox.setSelectedIcon(checkIcon);
 
