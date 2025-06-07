@@ -4,7 +4,6 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
-import java.awt.event.*;
 
 public class Slider extends JFrame implements ChangeListener {
 
@@ -64,6 +63,6 @@ public class Slider extends JFrame implements ChangeListener {
 
 
     public static void main(String[] args) {
-        Slider slider = new Slider();
+        new Slider();
     }
 }

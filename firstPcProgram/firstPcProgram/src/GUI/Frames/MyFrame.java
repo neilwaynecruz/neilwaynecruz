@@ -1,7 +1,6 @@
 package GUI.Frames;
 import javax.swing.*;
 import java.awt.*;
-import java.util.Objects;
 
 //JFrame frame = new JFrame(); // Create a frame
 public class MyFrame extends JFrame {
