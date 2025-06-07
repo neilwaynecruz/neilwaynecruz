@@ -1,4 +1,4 @@
-Student #,Lastname,Firstname,Gender,Section,Absences,Quiz 1,Quiz 2,Act 1,Act 2,Act 3,Final Exam
+Student no,Lastname,Firstname,Gender,Section,Absences,Quiz1,Quiz2,Act1,Act2,Act3,Final exam
 2k1-1,Uzumaki,Naruto,M,A,8.0,59.0,48.0,97.0,74.0,74.0,77.0
 2k1-2,Uchiha,Madara,M,A,3.0,55.0,67.0,97.0,78.0,92.0,84.0
 2k1-3,Uchiha,Itachi,M,B,2.0,52.0,63.0,97.0,75.0,85.0,83.0
