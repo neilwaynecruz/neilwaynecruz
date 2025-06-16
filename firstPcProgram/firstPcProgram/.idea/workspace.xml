@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="MODIFIED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/CheckBoxes/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/CheckBoxes/MyFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/RadioButtons/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/RadioButtons/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/CheckBoxes/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/CheckBoxes/MyFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/RadioButtons/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/RadioButtons/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/GridLayout/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GridLayout/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/neilwaynecruz/neilwaynecruz.git&quot;,
-    &quot;accountId&quot;: &quot;9e37d028-e7cc-453c-9b81-7abe95b77472&quot;
+    &quot;accountId&quot;: &quot;4436e39f-990a-4fcf-be4c-ff0bc3a4aadd&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -46,30 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Frames.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.diceRollerProgram.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JAVAFOLDER/MAIN-BRANCH/firstPcProgram/firstPcProgram&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.ColorChooser.executor": "Run",
+    "Application.FileChooser.executor": "Run",
+    "Application.Frames.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MenuBar.executor": "Run",
+    "Application.ProgressBar.executor": "Run",
+    "Application.Slider.executor": "Run",
+    "Application.diceRollerProgram.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/JAVAFOLDER/MAIN-BRANCH/firstPcProgram/firstPcProgram",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\VSCODE-FOR-JAVA\firstPcProgram\firstPcProgram\src\Programs" />
@@ -78,8 +80,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
       </set>
     </attachedChunks>
   </component>
@@ -123,6 +125,8 @@
       <workItem from="1749013598747" duration="833000" />
       <workItem from="1749061692794" duration="2870000" />
       <workItem from="1749064624700" duration="201000" />
+      <workItem from="1750071760154" duration="23000" />
+      <workItem from="1750072354617" duration="9693000" />
     </task>
     <task id="LOCAL-00001" summary="MODIFIED">
       <option name="closed" value="true" />

@@ -19,7 +19,7 @@ public class Main {
         frame.setTitle("GridLayout");
         frame.getContentPane().setBackground(Color.darkGray);
         frame.setSize(800,800);
-        frame.setLayout(new GridLayout(2,2,12,12));
+        frame.setLayout(new GridLayout(2,5,5,5));
 
 
         frame.add(new JButton("1"));
