@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="MODIFIED">
+    <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/GridLayout/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GridLayout/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/CheckBoxes/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/CheckBoxes/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/ComboBoxes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/ComboBoxes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/Frames/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/Frames/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/GridLayout/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/GridLayout/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/RadioButtons/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/RadioButtons/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/Sliders/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     "Application.ColorChooser.executor": "Run",
     "Application.FileChooser.executor": "Run",
     "Application.Frames.executor": "Run",
+    "Application.KeyListener.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MenuBar.executor": "Run",
     "Application.ProgressBar.executor": "Run",
@@ -59,7 +65,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JAVAFOLDER/MAIN-BRANCH/firstPcProgram/firstPcProgram",
+    "last_opened_file_path": "C:/JAVAFOLDER/MAIN-BRANCH/firstPcProgram/firstPcProgram/src/GUI/KeyListener",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,6 +79,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JAVAFOLDER\MAIN-BRANCH\firstPcProgram\firstPcProgram\src\GUI\KeyListener" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\VSCODE-FOR-JAVA\firstPcProgram\firstPcProgram\src\Programs" />
     </key>
@@ -126,7 +135,7 @@
       <workItem from="1749061692794" duration="2870000" />
       <workItem from="1749064624700" duration="201000" />
       <workItem from="1750071760154" duration="23000" />
-      <workItem from="1750072354617" duration="9693000" />
+      <workItem from="1750072354617" duration="11908000" />
     </task>
     <task id="LOCAL-00001" summary="MODIFIED">
       <option name="closed" value="true" />
@@ -136,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747395412010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added">
+      <option name="closed" value="true" />
+      <created>1750090502628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750090502628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MODIFIED" />
-    <option name="LAST_COMMIT_MESSAGE" value="MODIFIED" />
+    <MESSAGE value="Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
