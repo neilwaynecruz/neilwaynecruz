@@ -15,13 +15,13 @@ public class KeyListener extends JFrame implements java.awt.event.KeyListener {
         label.setBounds(0,0,350, 350);
         label.setIcon(icon);
 
-
         add(label);
+        addKeyListener(this);
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(759,750);
         setLayout(null);
         getContentPane().setBackground(Color.BLACK);
-        addKeyListener(this);
         setVisible(true);
     }
 
