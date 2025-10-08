@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86ebae00-5588-4957-aa5a-e91eda05418d" name="Changes" comment="Added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/KeyListener/KeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/firstPcProgram/GUI/KeyListener/KeyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/KeyListener/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/KeyListener/KeyListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +83,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
       </set>
     </attachedChunks>
   </component>
@@ -132,7 +130,8 @@
       <workItem from="1749064624700" duration="201000" />
       <workItem from="1750071760154" duration="23000" />
       <workItem from="1750072354617" duration="12538000" />
-      <workItem from="1750511875615" duration="276000" />
+      <workItem from="1750511875615" duration="642000" />
+      <workItem from="1753244724878" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="MODIFIED">
       <option name="closed" value="true" />
